@@ -1,0 +1,66 @@
+Задание 1
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+if(a > b and a < c) or (a < b and a > c):
+  print("Средним числом является " + str(a))
+else:
+  print()
+
+if(b > a and b < c) or (b < a and b > c):
+  print("Средним числом является " + str(b))
+else:
+  print(str(c))
+
+
+
+Задание 2 
+
+print("Введите любые целые три числа поочередно:")
+a = int(input())
+b = int(input())
+c = int(input())
+m = a
+
+if m < b:
+  m = b
+else: 
+  print()
+if m < c:
+  m = c
+else:
+ print()
+ 
+print("Наибольшим числом является " + str(m))
+
+
+Задание 3 
+print("Приветствую! Меня зовут Махмуд ака, а тебя?")
+name = str(input("Введите свое имя "))
+age = int(input("Введите свой возраст "))
+gender = str(input("Укажи свой пол (F/M)   "))
+
+if gender == 'F':
+   
+   if age >= int(18):
+    print()
+else:
+  print("● Махмуд ака очень вредный: он общается только с совершеннолетними")
+
+
+if gender == str("M"):
+    print(name + ", рад знакомству, но помогу только девушкам")
+else:
+    print(name + ", рад знакомству, давай помогу тебе")
+
+
+    a = int(input("Введи число а: "))
+    b = int(input('Введи число b: '))
+    if a + b:
+     print("Сумма чисел равна: " + str(a + b))
+    if a - b:
+     print("Разность чисел равна: " + str(a - b))
+    if a * b:
+     print("Произведение чисел будет равным " + str(a * b))
